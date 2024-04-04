@@ -1,0 +1,20 @@
+{
+    "name": "vladulescu-gabriel/php-patterns",
+    "description": "Design Patterns examples with PHP",
+    "type": "project",
+    "require": {
+        "php": ">=8.2"
+    },
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Pattern\\": "src/pattern/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vladulescu Gabriel",
+            "email": "mail.v.gabriel@gmail.com"
+        }
+    ]
+}
