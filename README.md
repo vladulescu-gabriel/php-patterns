@@ -2,7 +2,7 @@
 This is a personal project for presenting the concept of design patterns applied in PHP
 
 #### Setup on local
-1. add new host: windows/system32/drivers/hosts -> 127.0.0.1    local.patterns.com
+1. add new host: windows/system32/drivers/etc/hosts -> 127.0.0.1    local.patterns.com
 2. composer install for routing
 
 ### Preview routes
@@ -17,15 +17,15 @@ This is a personal project for presenting the concept of design patterns applied
 
 ### Changelog
 
-#### [1.0] - 2024-05-04
+#### 🌟[1.0] - 2024-05-04
 - autoloader added
 - dockerize app
 
-#### [1.1] - 2024-05-05
+#### 🌟[1.1] - 2024-05-05
 - simple routing
 - preview pattern example
 
-#### [1.2] - 2024-05-xx
+#### 🌟[1.2][WIP] - 2024-05-xx
 - builder pattern added
 - factory pattern added
 - singleton pattern added
