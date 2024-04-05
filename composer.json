@@ -2,8 +2,9 @@
     "name": "vladulescu-gabriel/php-patterns",
     "description": "Design Patterns examples with PHP",
     "type": "project",
+    "version": "1.1",
     "require": {
-        "php": ">=8.2"
+        "php": ">=8.0"
     },
     "license": "proprietary",
     "autoload": {
