@@ -25,8 +25,11 @@ This is a personal project for presenting the concept of design patterns applied
 #### 🌟[1.1] - 2024-04-05
 - simple routing
 - preview pattern example
-- builder pattern added
+- builder pattern added [ PR OPEN ]
 
-#### 🌟[1.2][WIP] - 2024-04-08
-- factory pattern added
-- singleton pattern added
+#### 🌟[1.2] - 2024-04-08
+- factory pattern added [ PR OPEN ]
+- singleton pattern added [ PR OPEN ]
+- adding CSS loader
+- improve template preview:
+![Template Preview](https://vladulescu-gabriel/php-patterns/src/render/template/image.png?raw=true)
