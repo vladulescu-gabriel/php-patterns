@@ -6,11 +6,7 @@ class SingletonInstance
 {
     private static $instances = [];
 
-    /** protected constructor for allowing subclassing (extends) */
     protected function __construct() { }
-
-    /** no allowed */
-    protected function __clone() { }
 
     public static function getInstance()
     {
