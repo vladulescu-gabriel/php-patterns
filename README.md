@@ -32,4 +32,4 @@ This is a personal project for presenting the concept of design patterns applied
 - singleton pattern added [ PR OPEN ]
 - adding CSS loader
 - improve template preview:
-![Template Preview](https://vladulescu-gabriel/php-patterns/src/render/template/image.png?raw=true)
+![Template Preview](https://vladulescu-gabriel/php-patterns/main/src/render/template/image.png?raw=true)
