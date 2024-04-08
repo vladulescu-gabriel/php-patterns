@@ -2,8 +2,6 @@
 
 namespace App\Example;
 use App\Pattern\AdapterPattern\Adapter\AppAdapter;
-use App\Pattern\AdapterPattern\Entity\WepAppEntity;
-use App\Pattern\AdapterPattern\Entity\MobileAppEntity;
 use App\Pattern\AdapterPattern\Service\AppCreatorService;
 
 echo "
