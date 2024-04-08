@@ -17,7 +17,6 @@ class Router
     public function render()
     {
         $request = $_SERVER['REQUEST_URI'];
-        var_dump([$request, $this->routes]);
         
         if (array_key_exists($request, $this->routes)) {
             $routeFile = $this->routes[$request];

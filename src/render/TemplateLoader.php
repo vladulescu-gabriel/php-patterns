@@ -35,7 +35,9 @@ class TemplateLoader
             foreach ($node->attributes as $attr) {
                 if ($attr->textContent === $tagId) {
                     $template = $this->htmlDoc->createDocumentFragment();
-                    $template->appendXML($this->exampleContent);
+                    $content = str_replace(array("<newline>"), "<br />", $this->exampleContent);
+
+                    $template->appendXML($content);
                     $node->appendChild($template);
                 }
             }
