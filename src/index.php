@@ -8,8 +8,8 @@ $router = new Router();
 $router
     ->addRoute('/builder-pattern', 'BuilderPatternExample')
     ->addRoute('/factory-pattern', 'FactoryPatternExample')
-    ->addRoute('/adapter-pattern', 'AdapterPatternExample')
     ->addRoute('/singleton-pattern', 'SingletonPatternExample')
+    ->addRoute('/adapter-pattern', 'AdapterPatternExample')
     ->addRoute('/prototype-pattern', 'PrototypePatternExample')
     ->addRoute('/bridge-pattern', 'BridgePatternExample')
 ;
