@@ -3,9 +3,12 @@ This is a personal project for presenting the concept of design patterns applied
 
 #### Setup on local
 1. Add new host: windows/system32/drivers/etc/hosts -> 127.0.0.1    local.patterns.com
-2. Composer install for routing ( will be moved to docker )
-3. Install Docker Desktop
-4. For start: "docker-compose up", For stop: "docker-compose down" in project root
+2. Install Docker Desktop App: https://docs.docker.com/desktop/release-notes/
+3. Install docker-desktop and make
+-- https://chocolatey.org/install
+-- choco install docker-desktop
+-- choco install make 
+4. start docker desktop app and execute command in project root : make start
 
 ### Preview routes
 #### available
@@ -38,6 +41,9 @@ This is a personal project for presenting the concept of design patterns applied
 - improve template preview:
 ![Template Preview](https://github.com/vladulescu-gabriel/php-patterns/blob/main/src/render/template/image.png?raw=true)
 
-#### 🌟[1.3][WIP] - 2024-04-09
+#### 🌟[1.3] - 2024-04-09
 - prototype pattern
-- bridge pattern ( maybe )
+- patterns updates
+
+#### 🌟[1.4][WIP] - 2024-04-10
+- bridge pattern
