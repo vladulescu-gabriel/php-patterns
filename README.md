@@ -5,9 +5,9 @@ This is a personal project for presenting the concept of design patterns applied
 1. Add new host: windows/system32/drivers/etc/hosts -> 127.0.0.1    local.patterns.com
 2. Install Docker Desktop App: https://docs.docker.com/desktop/release-notes/
 3. Install docker-desktop and make
--- https://chocolatey.org/install
--- choco install docker-desktop
--- choco install make 
+- https://chocolatey.org/install
+- choco install docker-desktop
+- choco install make 
 4. start docker desktop app and execute command in project root : make start
 
 ### Preview routes
