@@ -12,5 +12,7 @@ $router
     ->addRoute('/adapter-pattern', 'AdapterPatternExample')
     ->addRoute('/prototype-pattern', 'PrototypePatternExample')
     ->addRoute('/bridge-pattern', 'BridgePatternExample')
+    ->addRoute('/decorator-pattern', 'DecoratorPatternExample')
+    ->addRoute('/observer-pattern', 'ObserverPatternExample')
 ;
 $router->render();
