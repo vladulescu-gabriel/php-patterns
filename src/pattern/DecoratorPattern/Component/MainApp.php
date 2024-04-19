@@ -1,19 +1,18 @@
 <?php
 
 namespace App\Pattern\DecoratorPattern\Component;
-use stdClass;
 
 // concrete component
-class JsonApp implements App
+class MainApp implements App
 {
-    private stdClass $appSettings;
+    private array $appSettings;
 
-    public function setApp(stdClass $appSettings): void
+    public function setApp(array $appSettings): void
     {
         $this->appSettings = $appSettings;
     }
 
-    public function getApp(): stdClass
+    public function getApp(): array
     {
         return $this->appSettings;
     }

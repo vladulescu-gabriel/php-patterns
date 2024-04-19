@@ -18,5 +18,8 @@ echo '<h6>Output:</h6>';
 echo "<p>Main App</p>";
 echo "<pre>".var_export($app->main, true)."</pre>";
 
+echo "<p>Component App</p>";
+echo "<pre>".var_export($app->component, true)."</pre>";
+
 echo "<p>Exported App</p>";
 echo "<pre>".var_export($app->custom, true)."</pre>";

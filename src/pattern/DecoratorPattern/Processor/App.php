@@ -2,8 +2,8 @@
 
 namespace App\Pattern\DecoratorPattern\Processor;
 use App\Pattern\DecoratorPattern\Component\App as AppMainComponent;
-use stdClass;
 
+// main decorator
 class App implements AppMainComponent
 {
     public function __construct(
@@ -11,12 +11,12 @@ class App implements AppMainComponent
     ) {
     }
 
-    public function setApp(stdClass $appComponent): void
+    public function setApp(array $appComponent): void
     {
         $this->appComponent->setApp($appComponent);
     }
 
-    public function getApp(): stdClass
+    public function getApp(): array
     {
         return $this->appComponent->getApp();
     }
